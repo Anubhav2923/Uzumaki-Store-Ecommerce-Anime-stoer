@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzumaki Store</title>
+    <title>Uzumaki Store</title>
+    <link
+      rel="icon"
+      href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F26620800-uzumaki-clan-symbol-naruto&psig=AOvVaw0n58Pl-3_YGKowbGP-3xuv&ust=1710548780004000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLinj_WA9YQDFQAAAAAdAAAAABAE"
+    />
+  <script type="module" crossorigin src="/assets/showToast-CZGTY_rD.js"></script>
+  <script type="module" crossorigin src="/assets/showAddToCartCard-DxcZAjkE.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/showToast-DcHvroLO.css">
+</head>
+<body>
+
+    <header class="section-navbar">
+        <section class="top_txt">
+          <div class="head container">
+            <div class="head_txt">
+              <p>Free shipping, 30-day return or refund guarantee.</p>
+            </div>
+            <div class="sing_in_up">
+              <a href="# ">SIGN IN</a>
+              <a href="# ">SIGN UP</a>
+            </div>
+          </div>
+        </section>
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="index.html">
+              <img
+                src="/assets/logo-no-background-B1TATUHe.png"
+                
+                class="logo"
+                width="80%"
+                height="auto"
+              />
+            </a>
+          </div>
+    
+          <nav class="navbar">
+            <ul>
+              <li class="nav-item">
+                <a href="/" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">about</a`>
+              </li>
+              <li class="nav-item">
+                <a href="products.html" class="nav-link">products</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">contact</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="addToCart.html"
+                  class="nav-link add-to-cart-button"
+                  id="cartValue"
+                >
+                  <i class="fa-solid fa-cart-shopping">0 </i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    
+    
+    <section class="addToCartElement">
+        <div class="container">
+            <section>
+                <div id="productCartContainer">
+
+                </div>
+            </section>
+            <section class="productCartTotalElem">
+                <div class="productCartTotalElement">
+                  <p>Selected Offer Summary</p>
+                  <div class="productOrderTotal">
+                    <div>
+                      <p>Sub Total:</p>
+                      <p class="productSubTotal">0</p>
+                    </div>
+                    <div>
+                      <p>Tax:</p>
+                      <p class="productTax">₹50</p>
+                    </div>
+                    <hr />
+                    <div>
+                      <p>Final Total:</p>
+                      <p class="productFinalTotal">0</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+
+        </div>
+    </section>
+
+
+    <!-- Template for a product -->
+    <template id="productCartTemplate">
+        <div class="cards" id="cardValue">
+          <article class="information [ card ]">
+            <div>
+              <span class="category"></span>
+            </div>
+            <div class="imageContainer">
+              <img class="productImage" src="" alt="" />
+            </div>
+  
+            <h2 class="productName"></h2>
+  
+            <p class="productPrice"></p>
+  
+            <div class="stockElement">
+              <button class="cartIncrement">+</button>
+              <p class="productQuantity" data-quantity="1">1</p>
+              <button class="cartDecrement">-</button>
+            </div>
+  
+            <!-- <button class="add-to-cart-button">Add To Cart</button> -->
+            <button class="add-to-cart-button remove-to-cart-button">
+              Remove
+            </button>
+          </article>
+        </div>
+      </template>
+
+    <!-- End of Template for a product -->
+
+
+
+
+      <footer class="section-footer">
+        <div class="footer-container container">
+          <div class="content_1">
+            <img src="/assets/logo-no-background-B1TATUHe.png" alt="logo" />
+            <p>
+              Welcome to Uzumaki EcomStore, your ultimate destination for Anime
+              Cosplay and Merch.
+            </p>
+            <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
+          </div>
+          <div class="content_2">
+            <h4>SHOPPING</h4>
+            <a href="#">Clothing</a>
+            <a href="#">Action Figure</a>
+            <a href="#">Merch</a>
+            <a href="#">Sales & Discount</a>
+          </div>
+          <div class="content_3">
+            <h4>Experience</h4>
+            <a href="./contact.html">Contact Us</a>
+            <a href="" target="_blank">Payment Method</a>
+            <a href="" target="_blank">Delivery</a>
+            <a href="" target="_blank">Return and Exchange</a>
+          </div>
+          <div class="content_4">
+            <h4>NEWSLETTER</h4>
+            <p>Be the first to know about new<br />arrivals, sales & promos!</p>
+            <div class="f-mail">
+              <input type="email" placeholder="Your Email" />
+              <i class="bx bx-envelope"></i>
+            </div>
+            <hr />
+          </div>
+        </div>
+        <div class="f-design">
+          <div class="f-design-txt">
+            <p>Design and Code by Anubhav Singh</p>
+          </div>
+        </div>
+      </footer>
+
+
+
+      <script
+      src="https://kit.fontawesome.com/abaa40404c.js"
+      crossorigin="anonymous"
+    ></script>
+
+
+</body>
+</html>
+
+

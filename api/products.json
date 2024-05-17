@@ -1,0 +1,65 @@
+[
+    {
+        "id" : 1,
+        "name" : "Stickers",
+        "category" : "sticker",
+        "brand" : "Vinyl" ,
+        "price" : 300,
+        "stock" : 50,
+        "description" : "One Piece Anime Merch Sticker Pack from animo India Perfect for Laptop",
+        "image": "/stickers_product_cart_2.webp"
+    },
+
+    {
+        "id" : 2,
+        "name" : "Poster",
+        "category" : "Anime Poster",
+        "brand" : "Vinyl" ,
+        "price" : 200,
+        "stock" : 100,
+        "description" : "CVANU Anime Character Transparent Vinyl Self-Adhesive Sticker for Wall Decoration",
+        "image": "/poster_product_cart_6.webp"
+    },
+    {
+        "id" : 3,
+        "name" : "Action figure",
+        "category" : "Statue",
+        "brand" : "cosis" ,
+        "price" : 800,
+        "stock" : 100,
+        "description" : "AUGEN Big Itachi Uchiha Demon Slayer Kimetsu no Yaiba Action Figure ",
+        "image": "/itachi_product_cart_1.png"
+    },
+    {
+        "id" : 4,
+        "name" : "Hoodie",
+        "category" : "Cloth",
+        "brand" : "levis" ,
+        "price" : 800,
+        "stock" : 100,
+        "description" : "CRAZYMONK Jujutsu Kaisen Ora Ora Gojo SatoruUnisex Anime Hoodie",
+        "image": "/cloth_product_cart_4.png"
+    },
+
+    {
+        "id" :5,
+        "name" : "Key Ring",
+        "category" : "Merch",
+        "brand" : "ossj" ,
+        "price" : 100,
+        "stock" : 100,
+        "description" : "Daiyamondo Premium Keychain Of Famous Anime Keychain ",
+        "image": "/keyring_product_cart_3.png"
+    },
+    {
+        "id" :6,
+        "name" : "Bag",
+        "category" : "Merch",
+        "brand" : "ossj" ,
+        "price" : 800,
+        "stock" : 100,
+        "description" : "Anime Trendy Popular Backpack Fashionable Anime Character School",
+        "image": "/bag_product_cart_5.png"
+    }
+
+]
